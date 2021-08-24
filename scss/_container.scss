@@ -1,0 +1,51 @@
+.container {
+    padding: 10px;
+    display: flex;
+    width: ($widthcontainer - 40%);
+    float: right;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    color: rgb(107, 6, 110);
+    font-size: 26px;
+    font-style: italic;
+}
+
+.flex-direction div img {
+    max-width: 35vh;
+    height: 40vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "imagen1 imagen2" "imagen3 imagen4";
+    text-align: center;
+    color: rgb(107, 6, 110);
+    font-size: 35px;
+    font-style: italic;
+    padding: 5px;
+}
+
+.grid-container div img {
+    width: 100%;
+    height: 80%;
+    padding: 8px;
+}
+
+.imagen1 {
+    grid-area: imagen1;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+}
+
+.imagen3 {
+    grid-area: imagen3;
+}
+
+.imagen4 {
+    grid-area: imagen4;
+}

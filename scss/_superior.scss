@@ -1,0 +1,27 @@
+.superior {
+    background-color: $bg-color1;
+    padding: 10px;
+    font-style: $font-style;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.superiorb {
+    @extend .superior;
+    background-color: $bg-color2;
+}
+
+.icon-lang {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    background-size: cover;
+    background-position: center;
+    @if $lang==es {
+        background-image: url(../img/iconoesp.jpg);
+    }
+    @else if $lang==en {
+        background-image: url(../img/iconoing.png);
+    }
+}
