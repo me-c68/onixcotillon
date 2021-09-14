@@ -219,13 +219,22 @@ h4 {
 }
 
 .card-text {
+    padding: auto;
     font-size: 20px;
     text-align: center;
     font-style: italic;
 }
 
 .card-title {
+    padding: auto;
     font-size: 30px;
     text-align: center;
     font-style: italic;
+}
+
+.card-img img {
+    margin: auto;
+    padding: auto;
+    width: 60%;
+    height: 80%;
 }
