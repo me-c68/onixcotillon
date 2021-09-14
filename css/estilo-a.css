@@ -232,7 +232,7 @@ h4 {
     font-style: italic;
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:600px) {
     #botonera2 {
         color: white;
         font-size: 18px;
