@@ -217,3 +217,15 @@ h4 {
     height: 95vh;
     padding: auto;
 }
+
+.card-text {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.card-title {
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
