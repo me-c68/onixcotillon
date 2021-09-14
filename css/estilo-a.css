@@ -231,3 +231,23 @@ h4 {
     text-align: center;
     font-style: italic;
 }
+
+@media screen and (max-width:300px) {
+    #botonera2 {
+        color: white;
+        font-size: 18px;
+        font-style: italic;
+        float: left;
+        padding: 10px;
+        margin: 5px;
+        border-style: solid;
+        border-color: #16024e;
+        background-color: #6b066e;
+    }
+    #botonera2 li {
+        padding-bottom: 18px;
+    }
+    #botonera2 li a {
+        text-decoration: none;
+    }
+}
