@@ -217,3 +217,9 @@ h4 {
     height: 95vh;
     padding: auto;
 }
+
+.card-img {
+    padding: auto;
+    margin: auto;
+    width: 70%;
+}
